@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+   background-color: #222831;
+}
+.header{
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between; 
+}
+.header .logo{
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: "Oswald", sans-serif;
+}
+.header .logo .title{
+    color: white;
+    font-size: 24px;
+}
+.header .nav-link{
+    font-size: 18px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    gap: 48px;
+}
+.header .nav-link a{
+    color: white;
+    text-decoration: 0px;
+}
+.hero .display{
+    display: flex;
+    justify-content: flex-start
+}
+.hero .display .photo1{
+    padding-top: 130px;
+    padding-right: 30px;
+}
+.hero .display .content{
+    display: flex;
+    padding-left: 100px;
+}
+.hero .display .content .text{
+    padding-top: 180px;
+}
+.hero .display .content .arrow{
+    padding-top: 225px;
+}
+
+
+.hero .display .content .text .creative .creative-ul{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 550;
+}
+.hero .display .content .text .creative .design{
+    color: #00ADB5;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 550;
+}
+.hero .display .content .text .creative .HD{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hero .display .content .text .creative .HD .hire-me{
+    color: white;
+    font-size: 18px;
+    font-weight: 20;
+    background-color:#00ADB5;
+    font-family: "Poppins-Bold", sans-serif;
+    border-radius:24px;
+    padding: 10px 32px 10px 32px;
+    cursor:pointer;
+    
+}
+.hero .display .content .text .creative .HD .download .download-cv{
+    color: #eeeeee;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 20;
+    cursor:pointer;
+}
+.hero .display .content .text .creative .HD .download{
+    display: flex;
+    gap: 10px;
+    background: rgba(57, 62, 70, 0.75);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    align-items: center;
+    justify-content: flex-start;  
+}
+.blew{
+    display: flex;
+    padding-left: 440px;
+}
