@@ -117,7 +117,7 @@ body
     padding-left: 50px;
     padding-top: 80px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 .left-side{
     padding-top: 50px;
@@ -147,8 +147,6 @@ body
     width: 55%;
     font-size: 13px;
     font-family: "Poppins", sans-serif;
- 
-
 }
 .left-side .Read{
     font-weight: 700;
@@ -157,4 +155,86 @@ body
 .left-side .vector{
     padding-left: 170px;
     padding-top: 120px;
+}
+
+.recent-work{
+    background-image: url("img/Group\ 2374.png");
+    padding-top: 300px;
+    padding-bottom: 300px;
+    
+}
+.recent-work .main{
+    padding-left: 80px;
+}
+.recent-work .name .title1{
+    color: white;
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.name .title1 .w{
+    color: #00ADB5;
+}
+.name .nav{
+    display: flex;
+    color: #eeeeee;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    gap: 15px;
+
+}
+.name .nav .UI{
+    background: rgba(57, 62, 70, 0.75);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    cursor: pointer;
+}
+.name .nav .UX{
+    background: rgba(57, 62, 70, 0.75);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    cursor: pointer;
+}
+.name .nav .w-d{
+    background: rgba(57, 62, 70, 0.75);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    cursor: pointer;
+}
+.name .nav .all{
+    background: #00ADB5;
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    cursor: pointer;
+}
+.recent-work .pic{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    
+}
+.recent-work .pic .p0{
+    background: rgba(57, 62, 65, 0.75);
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+.recent-work .pic .p1{
+    background: rgba(57, 62, 65, 0.75);
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+.recent-work .pic .p2{
+    background: rgba(57, 62, 65, 0.75);
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
 }
