@@ -107,3 +107,54 @@ body
     display: flex;
     padding-left: 440px;
 }
+.m{
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.left-side{
+    padding-top: 50px;
+}
+.left-side .about-me{
+    display: flex;
+    gap: 20px;
+}
+.lamp{
+    padding-top: 35px;
+    height: 64px;
+    width: 64px;
+}
+.about-me .about1{
+    color: white;
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+}
+.about-me .me{
+    color: #00ADB5;
+    font-size: 70px;
+    font-weight: 550;
+}
+.left-side p{
+    color: #eeeeee;
+    width: 55%;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+ 
+
+}
+.left-side .Read{
+    font-weight: 700;
+
+}
+.left-side .vector{
+    padding-left: 170px;
+    padding-top: 120px;
+}
