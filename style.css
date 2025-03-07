@@ -238,3 +238,98 @@ body
     padding-bottom: 20px;
   
 }
+.ct
+{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.ct .left-side{
+    padding-top: 180px;
+    padding-bottom: 300px;
+}
+.ct .left-side .g{
+    color: #eeeeee;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.ct .left-side .m{
+    color:#00ADB5;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.ct .right-side .im{
+    padding-left: 300px;
+    padding-bottom: 100px;
+}
+
+.ct .right-side .form{
+    padding-left: 150px;
+}
+.right-side .form .n-e{
+    display: flex;
+    gap: 50px;
+}
+
+.right-side .form .n-e .name{
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-side .form .n-e .name .name{
+    background-color: #393E46;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.right-side .form .n-e .email{
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-side .form .n-e .email .email{
+    background-color: #393E46;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.right-side .form .Message{
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+   
+}
+.right-side .form .Message .message{
+    background-color: #393E46;
+    padding: 100px 100px 100px 100px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.right-side .form .st{
+    display: flex;
+    gap: 10px;
+    color: #eeeeee;
+    background: #00ADB5;
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    align-items: center;
+    height: 20px;
+    width: 130px;
+    cursor: pointer;
+}
+.right-side .form .st .p {
+    padding-top: 10px;
+}
+.right-side .end{
+    padding-left: 500px;
+    padding-top: 100px;
+}
