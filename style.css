@@ -333,3 +333,29 @@ body
     padding-left: 500px;
     padding-top: 100px;
 }
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer .hac{
+    display: flex;
+    gap: 60px;
+    padding-left: 450px;
+
+}
+.footer .hac .s{
+    display: flex;
+    gap: 10px;
+}
+.footer .hac .s .a{
+    padding-top: 10px;
+    color: #eeeeee;
+    text-decoration: 0;
+}
+.footer .icon{
+    padding-left: 550px;
+}.footer .pp{
+    color: #eeeeee;
+    padding-top: 150px;
+    padding-left: 900px;
+}
